@@ -1,0 +1,33 @@
+# Data (re-downloadable from flip.protein.properties / Zenodo)
+*.csv.gz
+*.fasta.gz
+data/
+
+# Model artifacts and cached embeddings
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.onnx
+embeddings/
+checkpoints/
+
+# Generated outputs
+*.png
+outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
