@@ -31,3 +31,7 @@ venv/
 .vscode/
 .DS_Store
 Thumbs.db
+
+
+#files
+Rhodopsin/1C3W.pdb
